@@ -1,0 +1,19 @@
+[user]
+	name = wenhuajian
+	email = pat.biti@gmail.com
+[alias]
+	st = status
+	ci = commit
+	di = diff
+	co = checkout
+	br = branch
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[push]
+	default = current
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
